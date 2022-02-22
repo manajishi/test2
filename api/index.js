@@ -8,7 +8,7 @@ const to_json=[{ Name :"Manaya",Gender :"Man"}]
 const json_string = JSON.stringify(to_json);
 
 app.get('/', function (req, res){
- res.send(json_string);
+ res.send(json_string[0].Name);
 });
 
 //app.listen(3000, function () {
