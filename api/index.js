@@ -3,7 +3,7 @@ const res = require('express/lib/response');
 const app = express();
 const PORT = process.env.PORT || 3000;
 app.get('/', function (req, res){
- res.json().send("hello world");
+ res.send("hello world");
 });
 
 
