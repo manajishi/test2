@@ -8,7 +8,7 @@
     "start": "node ./api/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Manaya",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.3"
