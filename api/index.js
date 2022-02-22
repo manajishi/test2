@@ -17,7 +17,7 @@ app.get('/', function (req, res){
 //check
 // console.log("Start");
  //console.log(from_json[0].Name);
- console.log(data);
+ //console.log(data);
 //app.listen(3000, function () {
 //});
 (process.env.NOW_REGION) ? module.exports = app : app.listen(PORT); 
