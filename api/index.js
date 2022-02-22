@@ -1,9 +1,11 @@
 const express = require('express');
+const res = require('express/lib/response');
 const app = express();
 const PORT = process.env.PORT || 3000;
 app.get('/', function (req, res){
- res.json();
+ res.json().send("hello world");
 });
+
 
 //app.listen(3000, function () {
 //});
