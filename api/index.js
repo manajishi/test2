@@ -25,10 +25,9 @@ app.post("/", (req, res) => {
   const messageID = data["events"][0]["message"]["id"];
   console.log("messageID:", messageID);
   res.send("api:OK");
+  const messageId = req.body['events'][0]['message']['id'];
+  console.log(messageId);
 });
-
-const messageId = req.body['events'][0]['message']['id'];
-console.log(messageId);
 
 
 //app.listen(3000, () => console.log("Listening on port 3000"));
